@@ -1,0 +1,27 @@
+.hello {
+    display: flex;
+    width: 90vw;
+    height: 100vh;
+    align-items: flex-end;
+    color: white;
+}
+
+.title {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    opacity: 0.5;
+    font-size: 100px;
+    border: 1px solid white;
+    border-radius: 50px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    margin-left: calc(42vw - 200px);
+}
+
+span {
+    font-family: 'Caveat', cursive;
+}
+

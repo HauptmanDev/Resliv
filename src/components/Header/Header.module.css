@@ -1,0 +1,45 @@
+.header {
+    /*border: 1px solid;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 20vh;
+    width: 5vw;
+}
+
+.element {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    margin: 15px;
+    font-size: 25px;
+    font-family: 'Caveat', cursive;
+}
+
+.link:link {
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.link:visited {
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.link:hover {
+    font-weight: normal;
+    text-shadow: 0 0 5px rgba(0, 0, 0, .5);
+    font-size: 28px;
+}
+
+.link:active {
+    color: black;
+    opacity: 0.5;
+    text-decoration: none;
+    font-weight: normal;
+    text-shadow: 0 0 5px rgba(0, 0, 0, .5);
+    font-size: 25px;
+}
